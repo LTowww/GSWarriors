@@ -1,0 +1,38 @@
+
+header img{
+    width: 300px;
+    height: auto;
+}
+
+.jogador{
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 19%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.jogador img{
+    width: 150px;
+    height: auto;
+}
+
+.jogador p{
+    color: blue;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container2{
+        flex-direction: column;
+    }
+
+    .video-wrapper{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
